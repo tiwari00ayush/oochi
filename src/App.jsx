@@ -1,7 +1,11 @@
-import "./App.css";
+import { Navbar } from "./components";
 
 function App() {
-  return <h1>hello</h1>;
+  return (
+    <div className="h-screen w-full bg-zinc-900 text-white">
+      <Navbar />
+    </div>
+  );
 }
 
 export default App;
